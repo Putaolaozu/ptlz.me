@@ -1,8 +1,8 @@
 import Article from "@/components/ArticleComponents/Article";
 import Header from "@/components/Header";
 
-const Lession = ({ params }: { params: { lesson: string } }) => {
-  return import(`@/articles/learn_html/${params.lesson}.md`).then((res) => {
+const page = () => {
+  return import("@/articles/how_to_start/how_to_start.md").then((res) => {
     return (
       <>
         <Header markdown={res.default}></Header>
@@ -12,4 +12,4 @@ const Lession = ({ params }: { params: { lesson: string } }) => {
   });
 };
 
-export default Lession;
+export default page;

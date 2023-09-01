@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${inter.className} min-h-screen min-w-[296px]`}>
         <Navbar></Navbar>
         {children}
-        <footer className="dark:bg-[#0e141a] font-extralight font-serif text-sm text-center w-full py-4 opacity-60">
+        <footer className="dark:bg-[--background-start-rgb] font-extralight font-serif text-sm text-center w-full py-4 opacity-60">
           © 2023-present Putaolaozu. All Rights Reserved.
         </footer>
       </body>

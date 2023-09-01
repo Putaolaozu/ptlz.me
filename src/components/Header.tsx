@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 const Header = ({ markdown }: { markdown: string }) => {
   return (
     <header className="dark:from-slate-800 dark:to-slate-800 bg-gradient-to-t from-sky-200 to-sky-100 relative">
-      <div className="absolute sm:-top-14 sm:h-14 -top-8 h-8 dark:bg-slate-800 bg-[#D9F0FD] w-full"></div>
+      <div className="absolute sm:-top-14 sm:h-14 -top-10 h-10 dark:bg-slate-800 bg-[#D9F0FD] w-full"></div>
       <div className="sticky top-0 sm:h-16 h-10 dark:bg-slate-800 bg-[#D9F0FD] w-full z-10"></div>
       <hgroup className="pt-2 pb-9 px-8 max-w-[1100px] mx-auto">
         <nav className="flex items-center dark:text-gray-300 sm:text-lg ">
@@ -47,7 +47,9 @@ const Header = ({ markdown }: { markdown: string }) => {
             初来乍到
           </Link>
         </nav>
-        <ReactMarkdown allowedElements={["h1"]} className="mt-6 mb-4 lg:text-5xl md:text-4xl sm:text-3xl text-2xl">
+        <ReactMarkdown
+          allowedElements={["h1"]}
+          className="mt-6 mb-4 font-medium lg:text-5xl md:text-4xl sm:text-3xl text-2xl">
           {markdown}
         </ReactMarkdown>
       </hgroup>

@@ -8,19 +8,23 @@
 
 首先要学习一个网页结构，我们可以先看看别人的网页结构是怎么样？ 那么怎么看呢？ 我们在浏览器里随便打开一个网页，无论是*firefox*或者是*chrome*都可以， 然后鼠标右键单击选择最下面这个检查。 我们可以看到浏览器就弹出了一个东西，这个就叫做浏览器的开发者工具，这个开发者工具我们以后会经常用到。
 
-我们可以发现，所有网站的*HTML*都是这样的基本结构：
+我们可以发现，所有网站的*HTML*都是这样的 基本结构：
 
-```
+```html
 <!DOCTYPE html>
 <html>
-  <head>这里是头</head>
-  <body>这里是身体</body>
+  <head>
+    这里是头
+  </head>
+  <body>
+    这里是身体
+  </body>
 </html>
 ```
 
 ## Javascript
 
-```
+```javascript
 const html = document.htmlElement;
 html.getUserAgent();
 ```
