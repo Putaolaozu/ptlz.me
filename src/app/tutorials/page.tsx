@@ -24,7 +24,7 @@ const Tutorials = () => {
       <h2 className="heading2">初来乍到</h2>
       <ul className="content-list">
         <li>
-          <Link href="tutorials/html/html-basic">从「!DOCTYPE html」说起</Link>
+          <Link href="tutorials/get_started">如何开始学习 web 前端开发? 我的学习方法和路线分享</Link>
         </li>
       </ul>
     </section>

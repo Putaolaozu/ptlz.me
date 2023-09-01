@@ -24,7 +24,7 @@ const ArticleCard = ({ article }: { article: ArticleCardProps }) => {
             <h1 className="sm:text-xl text-lg font-bold mb-2">{article.title}</h1>
             <p className="font-light text-sm sm:text-base">{article.description}</p>
           </hgroup>
-          <p className="flex flex-col sm:flex-row sm:justify-between sm:items-center items-start gap-2 px-4 dark:text-slate-300 text-sm font-extralight mb-4">
+          <p className="flex flex-col sm:flex-row sm:justify-between sm:items-center items-start gap-2 px-4 dark:text-slate-300 text-sm font-extralight pb-4">
             <time dateTime={article.date}>📅{article.date}</time>
             <span>
               ⏰共{article.words}字，约需花费{article.readTime}分钟阅读

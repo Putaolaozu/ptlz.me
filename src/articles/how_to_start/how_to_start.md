@@ -69,7 +69,7 @@
 > - [Bitfumes](https://www.youtube.com/@Bitfumes)：印度老哥，热情澎湃，看他的视频会跟着亢奋起来
 > - [Javascript Mastery](https://www.youtube.com/@javascriptmastery)：产出奇高，有很多完整的 web app 教程。不过要注意，真正开发一个 web app 的流程并不是其教程那样，绝对不是像他一上来就把 Navbar 做好的。
 
-## 建议与更多分享
+## 四、建议与更多分享
 
 ### 我的学习路线
 
@@ -113,10 +113,10 @@
 
 > #### 一些书
 >
-> - [Refactoring UI，Adam Wathan 等 著](https://www.refactoringui.com)：五星推荐！会让人重新思考一下 UI 设计，为啥别人的 UI 那么好看（题外话，apple 的 UI 和 UX 设计值得）
+> - [Refactoring UI](https://www.refactoringui.com)，Adam Wathan 等 著：五星推荐！会让人重新思考一下 UI 设计，为啥别人的 UI 那么好看（题外话，apple 的 UI 和 UX 设计值得）
 > - Javascript 高级程序设计（第四版），Matt Frisbie 著：八百多页的一本大部头，十分细致！有空可以多翻翻，许多 Javascript 的细节是网上的教程不会提到的
 
-## 结语
+## 五、结语
 
 学习前端乃至许多计算机技术都是一个持续的过程，保持热情和好奇心十分重要。
 
