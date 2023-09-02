@@ -47,7 +47,7 @@ html {
 }
 
 .article p {
-  @apply sm:ml-4 font-[350] text-sm sm:text-base tracking-wide sm:mb-5 mb-3 sm:leading-7 leading-5;
+  @apply sm:ml-4 font-[350] sm:text-base tracking-wide sm:mb-5 mb-3 sm:leading-7 leading-5;
 }
 
 .article ol {

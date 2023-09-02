@@ -16,8 +16,8 @@ const ArticleCard = ({ article }: { article: ArticleCardProps }) => {
   return (
     <article className="article-card">
       <Link href={article.postURL}>
-        <div className="h-24 sm:h-44 overflow-hidden">
-          <Image src={article.imgURL} alt={article.title} width={576} height={100} className="object-cover" />
+        <div className=" overflow-hidden">
+          <Image src={article.imgURL} alt={article.title} width={715} height={395} className="object-cover" />
         </div>
         <div className="px-6">
           <hgroup className="my-4 px-2">
