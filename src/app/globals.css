@@ -26,7 +26,7 @@ html {
 }
 
 .article-card {
-  @apply rounded-lg overflow-hidden max-w-xl mx-auto my-4 shadow-md hover:shadow-md hover:-translate-y-1 dark:hover:shadow-slate-600 transition-all border-2 border-slate-700 dark:bg-slate-900 bg-gray-50;
+  @apply rounded-lg overflow-hidden max-w-xl mx-auto my-4 shadow-md hover:shadow-md hover:-translate-y-1 dark:hover:shadow-slate-600 transition-all dark:bg-slate-900 bg-gray-50;
 }
 
 .article-heading h1 {

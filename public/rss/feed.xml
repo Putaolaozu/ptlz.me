@@ -1,3 +1,15 @@
-<rss>
-<channel></channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>葡萄老祖的博客</title>
+    <description>行过路过不要错过</description>
+    <link>https://blog.ptlz.me</link>
+    <item>
+      <title>如何开始学习 web 前端开发? 我的学习方法和路线分享</title>
+      <link>https://blog.ptlz.me/tutorials/get_started</link>
+      <guid isPermaLink="true">https://blog.ptlz.me/tutorials/get_started</guid>
+      <description>讲讲怎么学习前端开发，分享一些我自己觉得不错的学习方法和素材</description>
+      <pubDate>Wed, 28 Aug 2023 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
 </rss>
