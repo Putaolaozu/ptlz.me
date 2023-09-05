@@ -4,12 +4,18 @@
     <title>葡萄老祖的博客</title>
     <description>行过路过不要错过</description>
     <link>https://blog.ptlz.me</link>
+    <generator>RSS for Node</generator>
+    <lastBuildDate>Wed, 28 Aug 2023 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://blog.ptlz.me/rss/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>如何开始学习 web 前端开发? 我的学习方法和路线分享</title>
       <link>https://blog.ptlz.me/tutorials/get_started</link>
       <guid isPermaLink="true">https://blog.ptlz.me/tutorials/get_started</guid>
       <description>讲讲怎么学习前端开发，分享一些我自己觉得不错的学习方法和素材</description>
       <pubDate>Wed, 28 Aug 2023 00:00:00 GMT</pubDate>
+      <content:encoded>
+        <image src='https://blog.ptlz.me/articles/how_to_start.png'/>
+      </content:encoded>
     </item>
   </channel>
 </rss>
