@@ -10,7 +10,7 @@ const Posts = () => {
         <ul className="content-list"></ul>
       </section>
       <section>
-        <h2 className="heading2">教程</h2>
+        <h2 className="heading2">前端相关</h2>
         <ul className="content-list">
           {articleInfo.map((article) => {
             return (

@@ -5,8 +5,18 @@
     <description>行过路过不要错过</description>
     <link>https://blog.ptlz.me</link>
     <generator>RSS for Node</generator>
-    <lastBuildDate>Wed, 28 Aug 2023 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 Sept 2023 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://blog.ptlz.me/rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>防抖和节流：简单的例子，详细地讲解（Javascript）</title>
+      <link>https://blog.ptlz.me/posts/web-dev/debounce_and_throttle</link>
+      <guid isPermaLink="true">https://blog.ptlz.me/posts/web-dev/debounce_and_throttle</guid>
+      <description>这次，讲讲两个性能相关的操作</description>
+      <pubDate>Fri, 15 Sept 2023 00:00:00 GMT</pubDate>
+      <content:encoded>
+        <image src='https://blog.ptlz.me/articles/how_to_start.png'/>
+      </content:encoded>
+    </item>
     <item>
       <title>如何开始学习 web 前端开发? 我的学习方法和路线分享</title>
       <link>https://blog.ptlz.me/tutorials/get_started</link>

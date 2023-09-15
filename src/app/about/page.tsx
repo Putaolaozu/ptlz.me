@@ -50,6 +50,15 @@ const About = () => {
           </Link>
         </div>
       </section>
+      <section>
+        <div className="flex flex-col gap-4 justify-center items-center mt-20 opacity-90">
+          <p>这里有个好玩的东西</p>
+          <Link href="https://lightrans.ptlz.me" className="font-semibold text-lg text-blue-500 hover:text-blue-400">
+            一个简洁的翻译web app
+          </Link>
+          <iframe src="https://lightrans.ptlz.me"></iframe>
+        </div>
+      </section>
     </>
   );
 };
