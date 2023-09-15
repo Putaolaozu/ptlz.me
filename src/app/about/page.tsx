@@ -56,7 +56,7 @@ const About = () => {
           <Link href="https://lightrans.ptlz.me" className="font-semibold text-lg text-blue-500 hover:text-blue-400">
             一个简洁的翻译web app
           </Link>
-          <iframe src="https://lightrans.ptlz.me"></iframe>
+          <iframe title="一个简洁的翻译web app" src="https://lightrans.ptlz.me"></iframe>
         </div>
       </section>
     </>
