@@ -20,7 +20,7 @@ const Article = ({ markdown }: { markdown: string }) => {
   }, [markdown]);
   return (
     <>
-      <div className="sticky top-0 sm:h-16 h-10 w-full z-10 bg-inherit"></div>
+      <div className="sticky -top-1 sm:h-16 h-11 w-full z-10 bg-inherit"></div>
       <main className="max-w-[1100px] mx-auto mb-4">
         <div className="flex justify-center flex-row-reverse items-start flex-wrap w-full mx-auto px-8">
           <aside className="article-aside">
