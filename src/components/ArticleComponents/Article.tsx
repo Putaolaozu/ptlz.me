@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import Heading from "../HeadingLink";
 import hljs from "@/highlight.min";
+import remarkGfm from "remark-gfm";
 
 const Article = ({ markdown }: { markdown: string }) => {
   // Highlight JS, highlighting the code in <pre><code></code></pre>
@@ -29,7 +30,9 @@ const Article = ({ markdown }: { markdown: string }) => {
             </ReactMarkdown>
           </aside>
           <article className="sm:basis-[736px] w-full article">
-            <ReactMarkdown disallowedElements={["h1"]}>{markdown}</ReactMarkdown>
+            <ReactMarkdown disallowedElements={["h1"]} remarkPlugins={[remarkGfm]}>
+              {markdown}
+            </ReactMarkdown>
           </article>
         </div>
       </main>

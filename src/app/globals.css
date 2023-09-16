@@ -47,7 +47,11 @@ html {
 }
 
 .article p {
-  @apply sm:ml-4 font-[350] sm:text-base tracking-wide sm:mb-5 mb-3 sm:leading-7 leading-5;
+  @apply sm:ml-4 font-[350] sm:text-base tracking-wide sm:mb-5 mb-3 leading-7;
+}
+
+.article p code {
+  @apply bg-slate-200 dark:bg-slate-950 text-blue-800 dark:text-blue-200 px-1 max-w-full rounded whitespace-pre-wrap;
 }
 
 .article ol {
@@ -60,6 +64,14 @@ html {
 
 .article blockquote {
   @apply sm:p-4 p-2 border-l-4 sm:mb-5 mb-3 dark:bg-slate-900 bg-slate-50 border-sky-100 dark:border-sky-800 text-sm sm:text-base;
+}
+
+.article table {
+  @apply mx-auto my-4 rounded;
+}
+
+.article table th {
+  @apply px-2 border-b-2;
 }
 
 article blockquote li {

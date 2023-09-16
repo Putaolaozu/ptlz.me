@@ -4,6 +4,7 @@ import debounce_and_throttle from "@/articles/web_dev/debounce_and_throttle.md";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://blog.ptlz.me"),
   title: "防抖和节流：简单的例子，详细地讲解（Javascript）",
   description: "防抖和节流：简单的例子，详细地讲解（Javascript）",
   openGraph: {

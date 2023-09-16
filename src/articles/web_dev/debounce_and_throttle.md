@@ -44,7 +44,7 @@ inputEle.addEventListener("input", (e) => {
 
 等等，就这？
 
-如果我们可以将这个“防抖”功能封装成一个函数`debounce`，写成`inputEle.addEventListener('input',debounce)`的形式，那就直观多了。
+如果我们可以将这个“防抖”功能封装成一个函数`debounce`，写成`inputEle.addEventListener( 'input', debounce )`的形式，那就直观多了。
 
 ### 2.函数封装
 
