@@ -1,5 +1,14 @@
 import Article from "@/components/ArticleComponents/Article";
 import Header from "@/components/Header";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "如何开始学习 web 前端开发? 我的学习方法和路线分享",
+  description: "讲讲怎么学习前端开发，分享一些我自己觉得不错的学习方法和素材",
+  openGraph: {
+    images: "/articles/how_to_start.png",
+  },
+};
 
 const page = () => {
   const tags = [

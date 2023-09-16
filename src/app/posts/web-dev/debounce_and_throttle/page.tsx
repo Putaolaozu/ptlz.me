@@ -1,6 +1,15 @@
 import Article from "@/components/ArticleComponents/Article";
 import Header from "@/components/Header";
 import debounce_and_throttle from "@/articles/web_dev/debounce_and_throttle.md";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "防抖和节流：简单的例子，详细地讲解（Javascript）",
+  description: "防抖和节流：简单的例子，详细地讲解（Javascript）",
+  openGraph: {
+    images: "/articles/debounce_and_throttle.png",
+  },
+};
 
 const page = () => {
   const tags = [
