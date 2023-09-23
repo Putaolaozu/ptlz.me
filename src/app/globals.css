@@ -82,6 +82,10 @@ article blockquote li {
   @apply text-blue-600 dark:text-blue-500 hover:text-blue-400 hover:underline transition-all sm:mt-4 mt-2;
 }
 
+.article h2 a {
+  @apply text-inherit hover:text-inherit hover:after:content-['#'] hover:after:opacity-70 hover:decoration-dotted hover:decoration-slate-300;
+}
+
 .article pre {
   @apply dark:bg-gray-900 bg-gray-100 rounded p-2;
 }
@@ -100,6 +104,10 @@ article blockquote li {
 
 .article-aside {
   @apply lg:block hidden sticky top-[148px] mt-4 ml-auto pl-5 sm:basis-[200px] border-l-4 border-indigo-100 dark:border-indigo-800;
+}
+
+.link-active {
+  @apply bg-blue-100 dark:bg-slate-800 dark:text-violet-400 text-violet-900 rounded;
 }
 
 .content-list {

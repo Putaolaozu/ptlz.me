@@ -8,7 +8,9 @@ export const metadata: Metadata = {
   title: "防抖和节流：简单的例子，详细地讲解（Javascript）",
   description: "防抖和节流：简单的例子，详细地讲解（Javascript）",
   openGraph: {
-    images: "/articles/debounce_and_throttle.png",
+    images: [{ url: "/articles/debounce_and_throttle.png" }],
+    type: "website",
+    title: "防抖和限流",
   },
 };
 
